@@ -19,7 +19,12 @@ export default function Home() {
 				/>
 			</Head>
 			<main className="">
-				<h1 className="text-3xl font-bold underline">Hello world!</h1>
+				<h1 className="text-3xl text-mainBlue font-bold underline font-rubikFont">
+					Hello world!
+				</h1>
+				<p className=" text-6xl font-rubikFont text-mainYellow">
+					holla World
+				</p>
 			</main>
 		</>
 	);
