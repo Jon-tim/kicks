@@ -15,6 +15,9 @@ module.exports = {
 				rubikFont: ["var(--font-rubik)"],
 				sansFont: ["var(--font-sans)"],
 			},
+			backgroundImage: {
+				hero: "url('/src/assets/images/hero.png')",
+			},
 		},
 	},
 	plugins: [],

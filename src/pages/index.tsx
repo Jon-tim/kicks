@@ -1,5 +1,8 @@
 import Head from "next/head";
 
+// COMPONENTS
+import Navbar from "@/components/molecules/Navbar";
+import Hero from "@/components/molecules/Hero";
 export default function Home() {
 	return (
 		<>
@@ -18,13 +21,11 @@ export default function Home() {
 					href="/favicon.ico"
 				/>
 			</Head>
-			<main className="">
-				<h1 className="text-3xl text-mainBlue font-bold underline font-rubikFont">
-					Hello world!
-				</h1>
-				<p className=" text-6xl font-rubikFont text-mainYellow">
-					holla World
-				</p>
+			<main className="bg-lightGray">
+				<section className="px-4 py-6">
+					<Navbar />
+					<Hero />
+				</section>
 			</main>
 		</>
 	);
