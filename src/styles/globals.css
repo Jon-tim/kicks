@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 li,
-h1 {
+h1,
+h3 {
 	font-family: "Rubik", sans-serif;
 }
 
@@ -11,7 +12,7 @@ p {
 	font-family: "Open Sans", sans-serif;
 }
 
-
 .poty p {
-    writing-mode: sideways-lr;
+	writing-mode: sideways-lr;
+	text-orientation: upright;
 }
