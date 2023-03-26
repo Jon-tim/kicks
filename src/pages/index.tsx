@@ -1,9 +1,10 @@
 import Head from "next/head";
 
 // COMPONENTS
-import Navbar from "@/components/molecules/Navbar";
-import Hero from "@/components/molecules/Hero";
-import NewDrops from "@/components/molecules/NewDrops";
+import Navbar from "@/components/molecules/index-page/Navbar";
+import Hero from "@/components/molecules/index-page/Hero";
+import NewDrops from "@/components/molecules/index-page/NewDrops";
+import Category from "@/components/molecules/index-page/Category";
 export default function Home() {
 	return (
 		<>
@@ -27,6 +28,9 @@ export default function Home() {
 					<Navbar />
 					<Hero />
 					<NewDrops />
+				</section>
+				<section>
+					<Category />
 				</section>
 			</main>
 		</>

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Buttons from "../atoms/Buttons";
-import Drops from "../atoms/Drops";
+import Buttons from "../../atoms/Buttons";
+import Drops from "../../atoms/Drops";
 import sho from "../../assets/images/Rectangle-5.png";
 export default function NewDrops() {
 	const newDrops = [

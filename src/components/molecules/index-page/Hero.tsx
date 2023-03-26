@@ -1,8 +1,8 @@
-import POTY from "../atoms/POTY";
-import Buttons from "../atoms/Buttons";
+import POTY from "../../atoms/POTY";
+import Buttons from "../../atoms/Buttons";
 import Image from "next/image";
-import rect1 from "../../assets/images/Rectangle-1.png";
-import rect2 from "../../assets/images/Rectangle-2.png";
+import rect1 from "../../../assets/images/Rectangle-1.png"
+import rect2 from "../../../assets/images/Rectangle-2.png"
 
 export default function Hero() {
 	return (
