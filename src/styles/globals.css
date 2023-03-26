@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--darkGray: #232321;
+	--mainBlue: "#4A69E2";
+	--mainYellow: "#FFA52F";
+	--FA-White: "#FAFAFA";
+	--lightGray: "#E7E7E3";
+	--midGray: "#70706E";
+}
+
 li,
 h1,
 h3 {
 	font-family: "Rubik", sans-serif;
+	color: var(--darkGray);
 }
 
 p {

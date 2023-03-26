@@ -18,6 +18,10 @@ module.exports = {
 			backgroundImage: {
 				hero: "url('/src/assets/images/hero.png')",
 			},
+			gridTemplateColumns: {
+				autofit: "repeat(auto-fit, minmax(170px, 1fr))",
+				autofits: "repeat(auto-fit, minmax(120px, 1fr))",
+			},
 		},
 	},
 	plugins: [],

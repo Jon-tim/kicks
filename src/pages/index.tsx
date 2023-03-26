@@ -3,6 +3,7 @@ import Head from "next/head";
 // COMPONENTS
 import Navbar from "@/components/molecules/Navbar";
 import Hero from "@/components/molecules/Hero";
+import NewDrops from "@/components/molecules/NewDrops";
 export default function Home() {
 	return (
 		<>
@@ -25,6 +26,7 @@ export default function Home() {
 				<section className="px-4 py-6">
 					<Navbar />
 					<Hero />
+					<NewDrops />
 				</section>
 			</main>
 		</>
