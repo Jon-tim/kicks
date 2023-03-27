@@ -8,7 +8,7 @@ export default function Hero() {
 	return (
 		<>
 			<section className="flex flex-col items-center gap-6 mt-6">
-				<h1 className="uppercase font-black text-5xl text-darkGray">
+				<h1 className="uppercase font-bold text-[3.5rem] text-darkGray">
 					do it <span className="text-mainBlue">right</span>
 				</h1>
 
@@ -16,7 +16,7 @@ export default function Hero() {
 					<POTY />
 					<div className="h-full flex justify-between items-end">
 						<div className="w-2/3">
-							<h3 className="uppercase text-white text-xl font-semibold">
+							<h3 className="uppercase text-white text-2xl font-semibold">
 								nike air max
 							</h3>
 							<p className="text-lightGray text-sm mb-2">

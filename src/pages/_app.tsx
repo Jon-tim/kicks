@@ -9,7 +9,7 @@ const open_sans = Open_Sans({
 });
 
 const rubik = Rubik({
-	weight: "400",
+	weight: ["400", "500", "600", "700", "800"],
 	subsets: ["latin"],
 	variable: "--font-rubik",
 });

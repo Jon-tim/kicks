@@ -15,7 +15,7 @@ export default function ShoeCat({ title, imgSrc }: cate) {
 					className="object-cover"
 				/>
 				<div className="relative flex items-end justify-between w-full">
-					<h2 className="w-1/2 capitalize font-extrabold text-2xl">
+					<h2 className="w-1/2 capitalize font-semibold text-2xl">
 						{title}
 					</h2>
 					<span className="bg-darkGray w-8 h-8 rounded-md flex items-center justify-center">

@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Buttons from "../../atoms/Buttons";
 import Drops from "../../atoms/Drops";
-import sho from "../../assets/images/Rectangle-5.png";
 export default function NewDrops() {
 	const newDrops = [
 		{
@@ -43,7 +41,7 @@ export default function NewDrops() {
 		<>
 			<section className="mt-6">
 				<div className="flex items-center justify-between mb-6">
-					<h1 className="w-1/2 font-semibold text-xl">
+					<h1 className="w-1/2 font-semibold text-2xl">
 						Don&apos;t miss out{" "}
 						<span className="text-mainBlue">new drops</span>
 					</h1>

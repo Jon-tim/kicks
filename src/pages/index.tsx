@@ -5,6 +5,11 @@ import Navbar from "@/components/molecules/index-page/Navbar";
 import Hero from "@/components/molecules/index-page/Hero";
 import NewDrops from "@/components/molecules/index-page/NewDrops";
 import Category from "@/components/molecules/index-page/Category";
+import Reviews from "@/components/molecules/index-page/Reviews";
+import Subscribe from "@/components/molecules/index-page/Subscribe";
+import Footers from "@/components/molecules/index-page/Footers";
+
+//--------------------------
 export default function Home() {
 	return (
 		<>
@@ -32,6 +37,13 @@ export default function Home() {
 				<section>
 					<Category />
 				</section>
+				<section className="p-4">
+					<Reviews />
+				</section>
+				<footer className="p-4 relative ">
+					<Subscribe />
+					<Footers />
+				</footer>
 			</main>
 		</>
 	);

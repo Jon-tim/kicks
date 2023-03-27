@@ -10,19 +10,21 @@
 	--lightGray: "#E7E7E3";
 	--midGray: "#70706E";
 }
+@layer base {
+	li,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-rubikFont text-darkGray;
+	}
 
-li,
-h1,
-h2,
-h3 {
-	font-family: "Rubik", sans-serif;
-	color: var(--darkGray);
+	p {
+		@apply font-sansFont text-darkGray;
+	}
 }
-
-p {
-	font-family: "Open Sans", sans-serif;
-}
-
 .poty p {
 	writing-mode: sideways-lr;
 	text-orientation: upright;
