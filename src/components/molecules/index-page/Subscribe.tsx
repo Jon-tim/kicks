@@ -3,7 +3,7 @@ import logoPlus from "../../../assets/images/Group 1.png";
 
 export default function Subscribe() {
 	return (
-		<section className="h-[450px] absolute left-4 right-4 bg-mainBlue rounded-t-3xl p-4 flex flex-col gap-6 ">
+		<section className="h-[450px] absolute left-4 right-4 bg-mainBlue rounded-t-3xl p-4 flex flex-col gap-6 lg:right-10 lg:left-10 lg:flex-row lg:p-10">
 			<div>
 				<h1 className="mb-2 text-white text-3xl font-semibold">
 					Join our KicksPlus Club & get 15% off

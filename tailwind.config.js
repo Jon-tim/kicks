@@ -17,6 +17,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				hero: "url('/src/assets/images/hero.png')",
+				"pro-hero": "url('/public/images/product-hero.png')",
 			},
 			gridTemplateColumns: {
 				autofit: "repeat(auto-fit, minmax(170px, 1fr))",

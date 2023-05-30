@@ -1,49 +1,15 @@
 import Buttons from "../../atoms/Buttons";
 import Drops from "../../atoms/Drops";
-export default function NewDrops() {
-	const newDrops = [
-		{
-			id: 1,
-			discount: "new",
-			title: "ADIDAS X-PRO",
-			// details: "Parley running and fashion shoe",
-			price: "125",
-			// src: "../../assets/images/Rectangle-5.png",
-			src: "/../public/images/Rectangle-5.png",
-		},
-		{
-			id: 2,
-			discount: "10%",
-			title: "ADIDAS XMB",
-			// details: "Sports and fashion shoe",
-			price: "135",
-			src: "/../public/images/Rectangle-5(1).png",
-		},
-		{
-			id: 3,
-			discount: "new",
-			title: "ADIDAS FROST",
-			// details: "Edge-designed sprinting shoe",
-			price: "105",
-			src: "/../public/images/Rectangle-5(2).png",
-		},
-		{
-			id: 4,
-			discount: "15%",
-			title: "ADIDAS XENOS",
-			// details: "Perforated. Jumping and sprinting shoe",
-			price: "225",
-			src: "/../public/images/Rectangle-5(3).png",
-		},
-	];
+import { newDrops } from "../../../data/newdrops";
 
+export default function NewDrops() {
 	return (
 		<>
-			<section className="mt-6">
-				<div className="flex items-center justify-between mb-6">
-					<h1 className="w-1/2 font-semibold text-2xl">
-						Don&apos;t miss out{" "}
-						<span className="text-mainBlue">new drops</span>
+			<section className="mt-6 lg:mt-10">
+				<div className="flex items-center justify-between mb-6 lg:items-end lg:mb-10">
+					<h1 className="w-1/2 font-semibold text-2xl lg:uppercase lg:text-5xl lg:w-1/3">
+						Don&apos;t miss out
+						<span className="text-mainBlue"> new drops</span>
 					</h1>
 					<Buttons>new drops</Buttons>
 				</div>

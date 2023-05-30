@@ -1,13 +1,10 @@
-import Head from "next/head";
 
 // COMPONENTS
-import Navbar from "@/components/molecules/index-page/Navbar";
 import Hero from "@/components/molecules/index-page/Hero";
 import NewDrops from "@/components/molecules/index-page/NewDrops";
 import Category from "@/components/molecules/index-page/Category";
 import Reviews from "@/components/molecules/index-page/Reviews";
-import Subscribe from "@/components/molecules/index-page/Subscribe";
-import Footers from "@/components/molecules/index-page/Footers";
+import Head from "next/head";
 
 //--------------------------
 export default function Home() {
@@ -28,22 +25,17 @@ export default function Home() {
 					href="/favicon.ico"
 				/>
 			</Head>
-			<main className="bg-lightGray">
-				<section className="px-4 py-6">
-					<Navbar />
+			<main>
+				<section className="px-4 pb-8 lg:px-10 lg:pb-8">
 					<Hero />
 					<NewDrops />
 				</section>
 				<section>
 					<Category />
 				</section>
-				<section className="p-4">
+				<section className="p-4 lg:px-10">
 					<Reviews />
 				</section>
-				<footer className="p-4 relative ">
-					<Subscribe />
-					<Footers />
-				</footer>
 			</main>
 		</>
 	);

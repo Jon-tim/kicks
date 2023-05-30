@@ -1,15 +1,14 @@
 import { HiBars3, HiUser } from "react-icons/hi2";
+import Link from "next/link";
 export default function NavCate() {
 	return (
 		<>
-			<div className="lg:hidden">
-				<HiBars3 className="text-2xl" />
-			</div>
-			<ul className="lg:flex gap-8 hidden">
-				<li>New Drops</li>
-				<li>Men</li>
-				<li>Women</li>
-			</ul>
+			<Link
+				href="/products"
+				className="font-medium"
+			>
+				Products
+			</Link>
 		</>
 	);
 }

@@ -3,8 +3,8 @@ import logo from "../../../assets/images/Logo-white.png";
 import Image from "next/image";
 export default function Footers() {
 	return (
-		<section className="bg-darkGray mt-[360px] rounded-3xl overflow-hidden p-4 pt-8 flex flex-col gap-6 relative">
-			<div>
+		<section className="bg-darkGray mt-[360px] rounded-3xl overflow-hidden p-4 pt-8 flex flex-col gap-6 relative lg:p-10 lg:flex-row lg:mt-[290px] lg:justify-between">
+			<div className="lg:w-[30%]">
 				<h3 className="text-mainYellow font-semibold text-lg">
 					About Us
 				</h3>
@@ -36,7 +36,7 @@ export default function Footers() {
 					<li className="text-lightGray">Blogs</li>
 				</ul>
 			</div>
-			<div className="mb-28">
+			<div className="mb-28 lg:mb-[28rem]">
 				<h3 className="text-mainYellow font-semibold text-lg mb-2">
 					Follow Us
 				</h3>
