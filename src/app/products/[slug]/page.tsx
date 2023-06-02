@@ -4,9 +4,9 @@ import { getProductId } from "@/lib/getProduct";
 import Image from "next/image";
 import { ProductType } from "@/types/product";
 import { sizeChart } from "@/data/newdrops";
-import { BiChevronLeft, BiChevronRight, BiHeart } from "react-icons/bi";
-import data from "../../../data/data.json";
-import Drops from "@/components/atoms/Drops";
+import { BiHeart } from "react-icons/bi";
+import Link from "next/link";
+import Recommendation from "@/components/molecules/Recommendation";
 
 type Params = {
 	params: {
@@ -78,39 +78,13 @@ export default function Product({ params }: Params) {
 								<BiHeart className="text-white text-sm" />
 							</div>
 						</div>
-						<button className="w-full py-4 bg-mainBlue text-white uppercase text-center font-rubikFont rounded-lg text-xs font-medium mt-2 cursor-pointer">
+						<Link href="/checkout" className="block w-full py-4 bg-mainBlue text-white uppercase text-center font-rubikFont rounded-lg text-xs font-medium mt-2 cursor-pointer">
 							buy it now
-						</button>
+						</Link>
 					</div>
 				</div>
 			</section>
-			<section>
-				<div className="flex items-center justify-between mb-4">
-					<h2 className="text-xl font-medium">You may also like</h2>
-					<div className="flex items-center gap-2">
-						<span className="bg-midGray/20 w-7 h-7 rounded-md flex items-center justify-center">
-							<BiChevronLeft className="text-2xl text-darkGray" />
-						</span>
-						<span className="bg-white w-7 h-7 rounded-md flex items-center justify-center">
-							<BiChevronRight className="text-2xl text-darkGray" />
-						</span>
-					</div>
-				</div>
-				<section className="grid grid-cols-autofits gap-4">
-					{data
-						.map((element) => (
-							<Drops
-								key={element.id}
-								id={element.id}
-								title={element.title}
-								img={element.src}
-								price={element.price}
-								discount={element.discount}
-							/>
-						))
-						.slice(6, 12)}
-				</section>
-			</section>
+			<Recommendation />
 		</main>
 	);
 }
