@@ -2,13 +2,15 @@ import Drops from "@/components/atoms/Drops";
 import Navbar from "@/components/molecules/index-page/Navbar";
 import Image from "next/image";
 import { BiFilter } from "react-icons/bi";
-import { lifestyle } from "@/data/newdrops";
+import Filter from "@/components/molecules/Filter";
+import data from "../../data/data.json"
+
 function products() {
-	const item = lifestyle.length > 1 ? "items" : "item";
+	const item = data.length > 1 ? "items" : "item";
 	return (
-		<section className="px-4 py-6 lg:px-10 lg:py-8 bg-lightGray">
-			{/* <Navbar /> */}
-			<section className="w-full h-48 relative bg-pro-hero bg-no-repeat bg-cover bg-center flex rounded-xl overflow-hidden my-6">
+		<section className="px-4 py-6 lg:px-10 lg:py-8 bg-lightGray relative">
+			{/* <Filter /> */}
+			<section className="w-full h-48 relative bg-pro-hero bg-no-repeat bg-cover bg-center flex rounded-xl overflow-hidden mt-2">
 				<div className="relative z-10 p-4 self-end">
 					<p className="text-FA-White text-sm">Limited time only</p>
 					<h1 className="text-white text-xl font-bold uppercase my-1">
@@ -33,7 +35,7 @@ function products() {
 							life style shoes
 						</h2>
 						<p className=" text-sm">
-							{lifestyle.length} {item}
+							{data.length} {item}
 						</p>
 					</div>
 					<div className="w-1/2 flex justify-between items-end gap-3 rounded-lg bg-white px-4 py-2 cursor-pointer">
@@ -45,9 +47,10 @@ function products() {
 				</div>
 				<section>
 					<section className="grid grid-cols-autofits gap-4">
-						{lifestyle.map((element) => (
+						{data.map((element) => (
 							<Drops
 								key={element.id}
+								id={element.id}
 								title={element.title}
 								img={element.src}
 								price={element.price}

@@ -1,136 +1,39 @@
-export const lifestyle = [
-	{
-		id: 1,
-		discount: "new",
-		title: "ADIDAS X-PRO",
-		// details: "Parley running and fashion shoe",
-		price: "125",
-		// src: "../../assets/images/Rectangle-5.png",
-		src: "/../public/images/Rectangle-5.png",
-	},
-	{
-		id: 2,
-		discount: "10%",
-		title: "ADIDAS XMB",
-		// details: "Sports and fashion shoe",
-		price: "135",
-		src: "/../public/images/Rectangle-5(1).png",
-	},
-	{
-		id: 3,
-		discount: "new",
-		title: "ADIDAS FROST",
-		// details: "Edge-designed sprinting shoe",
-		price: "105",
-		src: "/../public/images/Rectangle-5(2).png",
-	},
-	{
-		id: 4,
-		discount: "15%",
-		title: "ADIDAS XENOS",
-		// details: "Perforated. Jumping and sprinting shoe",
-		price: "225",
-		src: "/../public/images/Rectangle-5(3).png",
-	},
-	{
-		id: 5,
-		discount: "new",
-		title: "ADIDAS X-PRO",
-		// details: "Parley running and fashion shoe",
-		price: "125",
-		// src: "../../assets/images/Rectangle-5.png",
-		src: "/../public/images/Rectangle-5.png",
-	},
-	{
-		id: 6,
-		discount: "10%",
-		title: "ADIDAS XMB",
-		// details: "Sports and fashion shoe",
-		price: "135",
-		src: "/../public/images/Rectangle-5(1).png",
-	},
-	{
-		id: 7,
-		discount: "new",
-		title: "ADIDAS FROST",
-		// details: "Edge-designed sprinting shoe",
-		price: "105",
-		src: "/../public/images/Rectangle-5(2).png",
-	},
-	{
-		id: 8,
-		discount: "15%",
-		title: "ADIDAS XENOS",
-		// details: "Perforated. Jumping and sprinting shoe",
-		price: "225",
-		src: "/../public/images/Rectangle-5(3).png",
-	},
-	{
-		id: 9,
-		discount: "new",
-		title: "ADIDAS X-PRO",
-		// details: "Parley running and fashion shoe",
-		price: "125",
-		// src: "../../assets/images/Rectangle-5.png",
-		src: "/../public/images/Rectangle-5.png",
-	},
-	{
-		id: 10,
-		discount: "10%",
-		title: "ADIDAS XMB",
-		// details: "Sports and fashion shoe",
-		price: "135",
-		src: "/../public/images/Rectangle-5(1).png",
-	},
-	{
-		id: 11,
-		discount: "new",
-		title: "ADIDAS FROST",
-		// details: "Edge-designed sprinting shoe",
-		price: "105",
-		src: "/../public/images/Rectangle-5(2).png",
-	},
-	{
-		id: 12,
-		discount: "15%",
-		title: "ADIDAS XENOS",
-		// details: "Perforated. Jumping and sprinting shoe",
-		price: "225",
-		src: "/../public/images/Rectangle-5(3).png",
-	},
+interface Item {
+	id: number;
+	size: number;
+	status: boolean;
+}
+interface Category {
+	id: number;
+	color: string;
+	title: string;
+	src: string;
+}
+
+export const sizeChart: Item[] = [
+	{ id: 1, size: 36, status: true },
+	{ id: 2, size: 37, status: true },
+	{ id: 3, size: 38, status: true },
+	{ id: 4, size: 39, status: false },
+	{ id: 5, size: 40, status: true },
+	{ id: 6, size: 41, status: false },
+	{ id: 7, size: 42, status: true },
+	{ id: 8, size: 43, status: true },
+	{ id: 9, size: 44, status: true },
+	{ id: 10, size: 45, status: true },
 ];
-export const newDrops = [
+
+export const catShoe: Category[] = [
 	{
 		id: 1,
-		discount: "new",
-		title: "ADIDAS X-PRO",
-		// details: "Parley running and fashion shoe",
-		price: "125",
-		// src: "../../assets/images/Rectangle-5.png",
-		src: "/../public/images/Rectangle-5.png",
+		color: "lightGray",
+		title: "lifestyle shoes",
+		src: "/../public/images/images-34.jpeg",
 	},
 	{
 		id: 2,
-		discount: "10%",
-		title: "ADIDAS XMB",
-		// details: "Sports and fashion shoe",
-		price: "135",
-		src: "/../public/images/Rectangle-5(1).png",
-	},
-	{
-		id: 3,
-		discount: "new",
-		title: "ADIDAS FROST",
-		// details: "Edge-designed sprinting shoe",
-		price: "105",
-		src: "/../public/images/Rectangle-5(2).png",
-	},
-	{
-		id: 4,
-		discount: "15%",
-		title: "ADIDAS XENOS",
-		// details: "Perforated. Jumping and sprinting shoe",
-		price: "225",
-		src: "/../public/images/Rectangle-5(3).png",
+		color: "white",
+		title: "basketball shoes",
+		src: "/../public/images/image-32.png",
 	},
 ];

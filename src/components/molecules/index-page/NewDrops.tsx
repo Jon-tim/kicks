@@ -1,6 +1,7 @@
 import Buttons from "../../atoms/Buttons";
 import Drops from "../../atoms/Drops";
-import { newDrops } from "../../../data/newdrops";
+import Link from "next/link";
+import data from "../../../data/data.json";
 
 export default function NewDrops() {
 	return (
@@ -14,16 +15,25 @@ export default function NewDrops() {
 					<Buttons>new drops</Buttons>
 				</div>
 				<section className="grid grid-cols-autofits gap-4">
-					{newDrops.map((element) => (
-						<Drops
-							key={element.id}
-							title={element.title}
-							img={element.src}
-							price={element.price}
-							discount={element.discount}
-						/>
-					))}
+					{data
+						.map((element) => (
+							<Drops
+								key={element.id}
+								id={element.id}
+								title={element.title}
+								img={element.src}
+								price={element.price}
+								discount={element.discount}
+							/>
+						))
+						.slice(0, 6)}
 				</section>
+				<Link
+					href={`/products`}
+					className="uppercase font-rubikFont text-center text-xs font-bold bg-darkGray mt-8 block px-3 py-4 text-mainYellow rounded-lg lg:text-center lg:py-4 lg:text-lg"
+				>
+					see more products
+				</Link>
 			</section>
 		</>
 	);

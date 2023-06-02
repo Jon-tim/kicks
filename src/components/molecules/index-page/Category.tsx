@@ -2,25 +2,10 @@ import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
 //COMPONENTS
 import ShoeCat from "@/components/atoms/ShoeCat";
+import { catShoe } from "@/data/newdrops";
 
 export default function Category() {
-	const catShoe = [
-		{
-			id: 1,
-			color: "lightGray",
-			title: "lifestyle shoes",
-			// src: "/../public/images/image-31.png",
-			src: "/../public/images/images-34.jpeg",
-			// src: "/../public/images/image-33.jpg",
-		},
-		{
-			id: 2,
-			color: "white",
-			title: "basketball shoes",
-			src: "/../public/images/image-32.png",
-			// src: "/../public/images/images-34.jpeg",
-		},
-	];
+	
 
 	return (
 		<>

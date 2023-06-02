@@ -1,0 +1,146 @@
+[
+	{
+		"id": 1,
+		"discount": "new",
+		"title": "ADIDAS X-PRO",
+		"details": "Parley running and fashion shoe",
+		"price": "125",
+		"src": "/../public/images/Rectangle-5.png",
+		"description": "The ADIDAS X-PRO is a versatile running and fashion shoe, featuring Parley materials for sustainable style. With its sleek design and comfortable fit, it's perfect for both athletic performance and everyday wear."
+	},
+	{
+		"id": 2,
+		"discount": "10%",
+		"title": "NIKE Air Max 90",
+		"details": "Classic retro sneaker",
+		"price": "110",
+		"src": "/../public/images/Rectangle-5(1).png",
+		"description": "The NIKE Air Max 90 is a classic retro sneaker that continues to be a timeless icon. With its Air Max cushioning and stylish design, it offers both comfort and a fashionable look."
+	},
+	{
+		"id": 3,
+		"discount": "15%",
+		"title": "PUMA RS-X",
+		"details": "Modern lifestyle sneaker",
+		"price": "90",
+		"src": "/../public/images/Rectangle-5(2).png",
+		"description": "The PUMA RS-X is a modern lifestyle sneaker with a bold and futuristic design. With its comfortable fit and eye-catching colorways, it's perfect for those who want to make a fashion statement."
+	},
+	{
+		"id": 4,
+		"discount": "new",
+		"title": "NB 574",
+		"details": "Classic suede sneaker",
+		"price": "80",
+		"src": "/../public/images/Rectangle-5(3).png",
+		"description": "The NEW BALANCE 574 is a classic suede sneaker that combines timeless style with exceptional comfort. Its iconic design and premium materials make it a favorite among sneaker enthusiasts."
+	},
+	{
+		"id": 5,
+		"discount": "10%",
+		"title": "REEBOK Leather",
+		"details": "Iconic leather sneaker",
+		"price": "95",
+		"src": "/../public/images/Rectangle-5.png",
+		"description": "The REEBOK Classic Leather is an iconic leather sneaker that has stood the test of time. With its clean and versatile design, it pairs well with various outfits and offers all-day comfort."
+	},
+	{
+		"id": 6,
+		"discount": "new",
+		"title": "VANS Old Skool",
+		"details": "Iconic skateboarding shoe",
+		"price": "60",
+		"src": "/../public/images/Rectangle-5(1).png",
+		"description": "The VANS Old Skool is an iconic skateboarding shoe recognized for its signature side stripe and durable construction. Loved by skaters and fashion enthusiasts alike, it offers style and performance in equal measure."
+	},
+	{
+		"id": 7,
+		"discount": "15%",
+		"title": "ASICS Gel-Lyte III",
+		"details": "Classic running shoe",
+		"price": "120",
+		"src": "/../public/images/Rectangle-5(2).png",
+		"description": "The ASICS Gel-Lyte III is a classic running shoe known for its comfortable fit and retro appeal. With its Gel cushioning and stylish design, it delivers both performance and fashion."
+	},
+	{
+		"id": 8,
+		"discount": "10%",
+		"title": "CONVERSE All Star",
+		"details": "Timeless canvas sneaker",
+		"price": "55",
+		"src": "/../public/images/Rectangle-5(3).png",
+		"description": "The CONVERSE Chuck Taylor All Star is a timeless canvas sneaker that has been a cultural icon for decades. Its versatile design and casual appeal make it a wardrobe staple for many."
+	},
+	{
+		"id": 9,
+		"discount": "new",
+		"title": "UA Phantom",
+		"details": "Performance running shoe",
+		"price": "140",
+		"src": "/../public/images/Rectangle-5.png",
+		"description": "The UNDER ARMOUR HOVR Phantom is a performance running shoe designed for comfort and support. With its innovative HOVR cushioning technology, it provides a responsive and energized ride."
+	},
+	{
+		"id": 10,
+		"discount": "15%",
+		"title": "SKECHERS D'Lites",
+		"details": "Chunky retro sneaker",
+		"price": "70",
+		"src": "/../public/images/Rectangle-5(1).png",
+		"description": "The SKECHERS D'Lites is a chunky retro sneaker that combines style and comfort. With its lightweight design and supportive cushioning, it's perfect for those who want a trendy and comfortable footwear option."
+	},
+	{
+		"id": 11,
+		"discount": "10%",
+		"title": "TIMBERLAND",
+		"details": "Classic waterproof boot",
+		"price": "180",
+		"src": "/../public/images/Rectangle-5(2).png",
+		"description": "The TIMBERLAND 6-Inch Premium is a classic waterproof boot that is both durable and stylish. With its premium leather construction and sturdy outsole, it's built to withstand various weather conditions."
+	},
+	{
+		"id": 12,
+		"discount": "new",
+		"title": "ASICS Gel-Kayano",
+		"details": "High-performance running shoe",
+		"price": "160",
+		"src": "/../public/images/Rectangle-5(3).png",
+		"description": "The ASICS Gel-Kayano 27 is a high-performance running shoe that offers exceptional stability and cushioning. Its advanced technologies provide a smooth and comfortable running experience."
+	},
+	{
+		"id": 13,
+		"discount": "15%",
+		"title": "PUMA Suede Classic",
+		"details": "Timeless suede sneaker",
+		"price": "75",
+		"src": "/../public/images/Rectangle-5.png",
+		"description": "The PUMA Suede Classic is a timeless suede sneaker that has been a PUMA staple for decades. With its retro design and comfortable fit, it's a must-have for sneaker enthusiasts."
+	},
+	{
+		"id": 14,
+		"discount": "10%",
+		"title": "ADIDAS Superstar",
+		"details": "Iconic shell-toe sneaker",
+		"price": "100",
+		"src": "/../public/images/Rectangle-5(1).png",
+		"description": "The ADIDAS Superstar is an iconic shell-toe sneaker that has become a symbol of street style. With its classic design and versatile appeal, it remains a popular choice among sneaker lovers."
+	},
+	{
+		"id": 15,
+		"discount": "new",
+		"title": "NIKE Air Force 1",
+		"details": "Classic basketball shoe",
+		"price": "90",
+		"src": "/../public/images/Rectangle-5(2).png",
+		"description": "The NIKE Air Force 1 is a classic basketball shoe that has transcended its sport to become a fashion icon. With its timeless design and comfortable fit, it continues to be a popular choice worldwide."
+	},
+	{
+		"id": 16,
+		"discount": "15%",
+		"title": "NB 990v5",
+		"details": "Premium running shoe",
+		"price": "180",
+		"src": "/../public/images/Rectangle-5(3).png",
+		"description": "The NEW BALANCE 990v5 is a premium running shoe known for its superior craftsmanship and exceptional comfort. With its iconic design and advanced technologies, it's a top choice for serious runners."
+	}
+]

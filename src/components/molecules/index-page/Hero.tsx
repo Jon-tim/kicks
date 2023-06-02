@@ -1,9 +1,8 @@
 import POTY from "../../atoms/POTY";
-import Buttons from "../../atoms/Buttons";
 import Image from "next/image";
 import rect1 from "../../../assets/images/Rectangle-1.png";
 import rect2 from "../../../assets/images/Rectangle-2.png";
-
+import Link from "next/link";
 export default function Hero() {
 	return (
 		<>
@@ -23,7 +22,12 @@ export default function Hero() {
 								Nike introducing the new air max for
 								everyone&apos;s comfort
 							</p>
-							<Buttons>shop now</Buttons>
+							<Link
+								href="/products"
+								className=" text-white bg-mainBlue px-3 py-1 uppercase font-rubikFont font-medium rounded-lg"
+							>
+								shop now
+							</Link>
 						</div>
 						<div className="flex flex-col gap-2">
 							<Image
